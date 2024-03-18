@@ -1,0 +1,231 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 1em 0;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  align-items: center;
+  height: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  transition: box-shadow 300ms;
+  list-style: none;
+  margin: 25px;
+}
+
+.coverImg {
+
+  width: 200px;
+  height: 275px;
+}
+
+.Book-Container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background: var(--second-bg-color);
+	padding: 15px;
+	transition: .5s ease;
+	justify-content: left;
+  
+}
+
+.Single-Book-Container {
+  display: flex;
+  justify-items: center;
+	justify-content: center;
+	position: absolute;
+	background: var(--second-bg-color);
+	padding: 10px;
+	transition: .5s ease;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  width: 325px;
+  
+}
+ .bookTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+ }
+
+ .Book-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 20px;
+ }
+
+ .Book-Card-Button {
+  font-size: 14px;
+  margin: 10px;
+  
+  
+ }
+ .Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+ }
+
+ .btn {
+	
+	padding: .75rem;
+	font-size: 1.5rem;
+	background: var(--main-color);
+	border: .2rem solid var(--main-color);
+	border-radius: 4rem;
+	box-shadow: 0 0 1rem var(--main-color);
+	letter-spacing: .1rem;
+	font-weight: 600;
+	transition: .5s ease;
+	align-content: center;
+	justify-content: center;
+}
+
+.btn:hover {
+	box-shadow: blue;
+
+}
+section {
+  display: flex;
+
+	border: #1f242d;
+
+}
+.addDog h2 {
+	font-size: 3.6rem;
+	margin-bottom: 2rem;
+}
+
+.addDog form {
+	max-width: 75%;
+	margin: 1rem auto;
+  justify-content: center;
+	margin-bottom: 3rem;
+}
+
+.addDog form .form-box {
+  width: 100%;
+  align-items: center;
+}
+
+.addDog form .form-box input{
+	width: 100%;
+	padding: .5rem;
+	font-size: 1.15rem;
+	color: var(--second-bg-color);
+	background-color: var(grey);
+	border-radius: .6rem;
+	margin: .7rem 0;
+  text-align: center;
+  
+	
+}
+
+.form-constainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  text-justify: center;
+}
+
+.pbook {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+ .home-container .SearchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.home-container .SearchBar input {
+
+  border-radius:  .9rem;
+  width: 50% ;
+  height: 45%;
+}
+
+.home-container .Book-Container p {
+  font-size: 16px;
+}
+
+.Book-Container p {
+  font-size: 14px;
+
+}
